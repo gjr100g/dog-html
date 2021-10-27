@@ -1,0 +1,39 @@
+#slider{margin: 0 auto; width: 100%; height:100%; background-color: #d6dfe4;}
+        #slider section{margin: 0 auto; width:1903px; height: 740px;background-color: #d6dfe4
+        ; background-repeat: no-repeat; background-position: center; position: relative;}
+        header{width: 100%; height: 150px; margin: 0 auto; z-index: 10; background-color: #d6dfe4;}
+        #flot{width: 1903px; height: 150px; margin: 0 auto; background-color:#d6dfe4 }
+        nav{margin: 0 auto; width: 871px; height: 150px;}
+        nav ul{font-weight: bold; padding: 40px 1px;}
+        nav ul li{float: left; padding: 20px 30px 0 30px; font-size: 20px; transition: 0.3s;}
+        nav ul li:hover{transform: scale(1.2);}
+        #slider img[ alt="get"]{position: absolute; left: 840px; top: 170px;}
+        #slider img[alt="main1"]{position: absolute; top: -51px; left: 2px;}
+        #slider img[alt="main2"]{position: absolute; top: -55px; right: 158px;}
+        #logo{float: left; width: 141px; height: 124px; margin: 18px 50px;}
+        #logo:hover{transform: scale(1.1);}
+        #lo{float: right; margin: 20px 50px;}
+        h2[id="fl"]{font-size: 60px; position: absolute; top: 265px; left: 692px; font-weight: bold;}
+        p[id="fl_"]{font-size: 20px; position: absolute; top: 350px; left: 715px;}
+        #main1{float: left;}
+        #slider #button1{ display: block; background-color: #4c619a; border-radius: 20px; padding:5px 10px; border-style: solid;
+        float: left; position: absolute; top: 400px; left: 780px; font-size: 20px; border-color:#4c619a; border: 0.5px; width: 149px; height: 40px;text-align: center; }
+        #slider #button1 {color: white; }
+        #slider #button2{display: block; background:none; color: black; border-radius: 20px; padding:5px 10px; border:black; border: 0.5px;
+        float:right; position: absolute; top: 400px; left: 960px; font-size: 20px; border-style: solid; width: 149px; height: 40px; text-align: center;}
+        #slider button:hover{cursor: pointer;}
+        .id img{margin: -5px; padding: 0 20px 0 20px;}
+        
+
+footer{width: 100%; height: 400px;background-color: #d6dfe4;}
+		#footer{width: 1903px; height: 400px; background-color: #d6dfe4; margin: 0 auto;}
+		#footer .box div{float: left; margin: 60px 40px; }
+		#footer .box div:first-child{margin: 60px 40px 0 330px;}
+		#footer .box h3{font-size: 27.7px;}
+		#footer .box img{width: 5px; height: 25px; margin: 0px 7px -1px 1px; padding: 3px 0 0 0;}
+		#footer .box p{color: #333; margin: 0 0 10px 0;}
+		#footer .box p:first-of-type{margin: 25px 0 10px 0 ;}
+		#footer .box .customer{width: 289px; height: 255px;}
+		#footer .box .time{width: 240px;height: 255px;}
+		#footer .box .info{width: 234px; height: 255px;}
+		#footer .box .menu{width: 245px; height: 255px;}
