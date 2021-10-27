@@ -1,7 +1,15 @@
 #sub{width: 1155px; height: 1150px;margin: 0 auto; position: relative; border: 1px rgb(190, 190, 190);
     border-style:none none solid none;}
-    #sub .sub_img{width: 565px; height: 565px; float: left; margin: 70px 0; position: absolute; left: 0;}
-    #sub .sub_img img{width: 100%; height: 100%;}
+    #sub .sub_img1{width: 565px; height: 565px; float: left; margin: 70px 0; position: absolute; left: 0;}
+    #sub .sub_img2{width: 565px; height: 565px; float: left; margin: 70px 0; position: absolute; left: 0;display: none;}
+    #sub .sub_img3{width: 565px; height: 565px; float: left; margin: 70px 0; position: absolute; left: 0;display: none;}
+    #sub .sub_img4{width: 565px; height: 565px; float: left; margin: 70px 0; position: absolute; left: 0;display: none;}
+    #sub .sub_img5{width: 565px; height: 565px; float: left; margin: 70px 0; position: absolute; left: 0;display: none;}
+    #sub .sub_img1 img{width: 100%; height: 100%;}
+    #sub .sub_img2 img{width: 100%; height: 100%;}
+    #sub .sub_img3 img{width: 100%; height: 100%;}
+    #sub .sub_img4 img{width: 100%; height: 100%;}
+    #sub .sub_img5 img{width: 100%; height: 100%;}
     #sub .purchase{width: 557px; height: 709px; margin:10px 0; position: absolute; right: 0;}
     #sub .purchase .the{width: 157px; height: 35px; border: solid 2px 
         #4c619a;}
@@ -28,11 +36,16 @@
     #sub .purchase .purchase_window{width: 557px; height: 90px;}
     .purchase_window p:first-of-type{float: left;}
     .purchase_window p{float: right; display:block; font-size: 18px;padding: 9px 30px 9px 5px;}
-    .purchase_window p:last-of-type{ padding: 9px 10px 9px 0; text-align: right;}
+    .purchase_window p:last-of-type{ padding: 9px 10px 9px 0;position: absolute; right: 0;}
     .purchase .smor{width: 140px; height: 55px; display: inline-block; cursor: pointer;
         float: left; margin: 0 8.5px 0 0;border: solid #4c619a 1px; font-size: 17px; color:#4c619a;} 
-    .purchase .big{width: 260px; height: 55px; display: inline-block; cursor: pointer;
+    .purchase .big{width: 260px; height: 57px; display: inline-block; cursor: pointer;
         float: right;border: none; color: white; background-color: #4c619a; font-size: 17px;}
+    .second{width: 438px; height: 83px;position: absolute;
+    top: 640px; left: 67px;}
+    .second img{width: 83px;height: 83px; cursor: pointer;  border: solid rgb(204, 204, 204) 1px;
+    border-radius: 5px; transition: 0.2s;}
+    .second img:hover{border: solid rgb(112, 112, 112) 3px;}
     .relation{width: 1155px; height: 325px; float: left; margin: 760px 0 0 0;}  
         .relation .h{font-size: 25px; font-weight: bold; padding: 0 0 10px 0;}
         .sale{width: 220px; height: 280px; border-style: none; float: left; margin: 0 20px 0 0;}
@@ -44,15 +57,15 @@
 
 #Detail{width: 1155px; height: 100px; margin: 0 auto; padding: 27px 0;}
     #Detail ul{ width: 640px; height: 45px;margin: 0 auto;}
-    #Detail a{display: inline-block; width:140px; height: 45px; margin: 0 7.5px;text-align: center;
+    #Detail li{display: inline-block; width:140px; height: 45px; margin: 0 7.5px;text-align: center;
         line-height: 45px; display: inline-block;}
-    #Detail a:first-of-type{font-weight: bold;background-color: rgb(230, 230, 230);
+    #Detail li:first-of-type{font-weight: bold;background-color: rgb(230, 230, 230);
         border-radius: 20px;}
-    #Detail a:nth-of-type(2):hover{font-weight: bold; background-color: rgb(230, 230, 230);
+    #Detail li:nth-of-type(2):hover{font-weight: bold; background-color: rgb(230, 230, 230);
     border-radius: 20px; transition: 0.3s;}
-    #Detail a:nth-of-type(3):hover{font-weight: bold; background-color: rgb(230, 230, 230);
+    #Detail li:nth-of-type(3):hover{font-weight: bold; background-color: rgb(230, 230, 230);
     border-radius: 20px; transition: 0.3s;}
-    #Detail a:nth-of-type(4):hover{font-weight: bold; background-color: rgb(230, 230, 230);
+    #Detail li:nth-of-type(4):hover{font-weight: bold; background-color: rgb(230, 230, 230);
         border-radius: 20px; transition: 0.3s;}
 
     
@@ -60,21 +73,19 @@
     .Detailimg{width: 1155px; height: 18940px;margin:0 auto; border:1px rgb(102, 102, 102);
         border-style: none none solid none;} 
     #Detail_ img{margin: 0 auto; display:block;}
-    #Detail_ button{width: 400px; height: 80px; background: none; margin: 50px 350px;
+    #Detail_ button{width: 400px; height: 80px; background: none; margin: 50px 390px;
     border: solid rgb(116, 116, 116) 1px; font-weight: bold; font-size: 20px; cursor: pointer;}
-    #Detail_ button:c
-
-
+    
 #guide{width: 1155px; height: 100px; margin: 0 auto; padding: 27px 0;}
     #guide ul{ width: 640px; height: 45px;margin: 0 auto;}
-    #guide a{display: inline-block; width:140px; height: 45px; margin: 0 7.5px;text-align: center;
+    #guide li{display: inline-block; width:140px; height: 45px; margin: 0 7.5px;text-align: center;
         line-height: 45px;}
-    #guide a:nth-of-type(2){font-weight: bold; background-color: rgb(230, 230, 230);border-radius: 20px;}
-    #guide a:nth-of-type(1):hover{font-weight: bold; background-color: rgb(230, 230, 230);
+    #guide li:nth-of-type(2){font-weight: bold; background-color: rgb(230, 230, 230);border-radius: 20px;}
+    #guide li:nth-of-type(1):hover{font-weight: bold; background-color: rgb(230, 230, 230);
     border-radius: 20px; transition: 0.3s;}
-    #guide a:nth-of-type(3):hover{font-weight: bold; background-color: rgb(230, 230, 230);
+    #guide li:nth-of-type(3):hover{font-weight: bold; background-color: rgb(230, 230, 230);
     border-radius: 20px; transition: 0.3s;}
-    #guide a:nth-of-type(4):hover{font-weight: bold; background-color: rgb(230, 230, 230);
+    #guide li:nth-of-type(4):hover{font-weight: bold; background-color: rgb(230, 230, 230);
         border-radius: 20px; transition: 0.3s;}
 #guide_{width: 1155px; height: 1070px; margin: 0 auto;border:1px rgb(190, 190, 190);
     border-style: none none solid none; padding: 0 0 90px 0;}
@@ -87,14 +98,14 @@
 
 #review{width: 1155px; height: 100px; margin: 0 auto; padding: 27px 0;}
     #review ul{ width: 640px; height: 45px;margin: 0 auto;}
-    #review a{display: inline-block; width:140px; height: 45px; margin: 0 7.5px;text-align: center;
+    #review li{display: inline-block; width:140px; height: 45px; margin: 0 7.5px;text-align: center;
         line-height: 45px;}
-    #review a:nth-of-type(3){font-weight: bold; background-color: rgb(230, 230, 230);border-radius: 20px;}
-    #review a:nth-of-type(1):hover{font-weight: bold; background-color: rgb(230, 230, 230);
+    #review li:nth-of-type(3){font-weight: bold; background-color: rgb(230, 230, 230);border-radius: 20px;}
+    #review li:nth-of-type(1):hover{font-weight: bold; background-color: rgb(230, 230, 230);
     border-radius: 20px; transition: 0.3s;}
-    #review a:nth-of-type(2):hover{font-weight: bold; background-color: rgb(230, 230, 230);
+    #review li:nth-of-type(2):hover{font-weight: bold; background-color: rgb(230, 230, 230);
     border-radius: 20px; transition: 0.3s;}
-    #review a:nth-of-type(4):hover{font-weight: bold; background-color: rgb(230, 230, 230);
+    #review li:nth-of-type(4):hover{font-weight: bold; background-color: rgb(230, 230, 230);
         border-radius: 20px; transition: 0.3s;}
 #review_{width: 1155px; height: 1130px; margin: 0 auto;}
     #review_ .Photo{height: 144px; border: solid rgb(158, 158, 158) 1px; margin: 30px 0;}
@@ -127,22 +138,24 @@
     border-radius: 5px; margin: 15px 0 0 0; float: right;}
     #review_ button[value="모두보기"]{background: none; color: black; width: 100px; height: 40px;
         border-radius: 5px; border: solid rgb(121, 121, 121) 1px;margin: 15px 0 0 5px; float: right; }
-    #review_ li{float: left; border: solid rgb(112, 112, 112) 1px; width: 30px; height: 30px;
+    #review_ .text_box li{float: left; border: solid rgb(112, 112, 112) 1px; width: 30px; height: 30px;
     text-align: center; line-height: 25px; font-size: 12px;}
+    #review_ .m a{float: left; border: solid rgb(112, 112, 112) 1px; width: 30px; height: 30px;
+        text-align: center; line-height: 25px; font-size: 12px;}
     #review_ ul{margin: 80px 0 0 500px;}
-    #question{width: 1155px; height: 100px; margin: 0 auto; padding: 27px 0; border:1px rgb(190, 190, 190);
+#question{width: 1155px; height: 100px; margin: 0 auto; padding: 27px 0; border:1px rgb(190, 190, 190);
         border-style: solid none none none;}
     #question ul{ width: 640px; height: 45px;margin: 0 auto;}
-    #question a{display: inline-block; width:140px; height: 45px; margin: 0 7.5px;text-align: center;
+    #question li{display: inline-block; width:140px; height: 45px; margin: 0 7.5px;text-align: center;
         line-height: 45px;}
-    #question a:nth-of-type(4){font-weight: bold; background-color: rgb(230, 230, 230);border-radius: 20px;}
-    #question a:nth-of-type(1):hover{font-weight: bold; background-color: rgb(230, 230, 230);
+    #question li:nth-of-type(4){font-weight: bold; background-color: rgb(230, 230, 230);border-radius: 20px;}
+    #question li:nth-of-type(1):hover{font-weight: bold; background-color: rgb(230, 230, 230);
     border-radius: 20px; transition: 0.3s;}
-    #question a:nth-of-type(2):hover{font-weight: bold; background-color: rgb(230, 230, 230);
+    #question li:nth-of-type(2):hover{font-weight: bold; background-color: rgb(230, 230, 230);
     border-radius: 20px; transition: 0.3s;}
-    #question a:nth-of-type(3):hover{font-weight: bold; background-color: rgb(230, 230, 230);
+    #question li:nth-of-type(3):hover{font-weight: bold; background-color: rgb(230, 230, 230);
         border-radius: 20px; transition: 0.3s;}
-    #question_{width: 1155px; height: 500px; margin: 0 auto;}
+#question_{width: 1155px; height: 500px; margin: 0 auto;}
     #question_ h2{text-align: center; margin: 40px 0 0 0;}
     #question_ p{text-align: center; margin: 10px;}
     #question_ table{width: 100%; font-size: 12PX; border: rgb(112, 112, 112) 1px; border-style: none none solid none;}
@@ -154,6 +167,6 @@
     #question_ button[value="모두보기"]{background: none; color: black; width: 100px; height: 40px;
             border-radius: 5px; border: solid rgb(121, 121, 121) 1px;margin: 15px 0 0 5px; float: right; }
     #question_ button{cursor: pointer;}
-    #question_ li{float: left; border: solid rgb(112, 112, 112) 1px; width: 30px; height: 30px;
+    #question_ a{float: left; border: solid rgb(112, 112, 112) 1px; width: 30px; height: 30px;
                 text-align: center; line-height: 25px; font-size: 12px;}
      #question_ ul{margin: 80px 0 0 520px;}

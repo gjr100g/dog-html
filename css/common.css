@@ -8,9 +8,9 @@
         nav ul li{float: left; padding: 20px 30px 0 30px; font-size: 20px; transition: 0.3s;}
         nav ul li:hover{transform: scale(1.2);}
         #slider img[ alt="get"]{position: absolute; left: 840px; top: 170px;}
-        #slider img[alt="main1"]{position: absolute; top: -51px; left: 2px;}
+        #slider img[alt="main1"]{position: absolute; top: -51px; left: 2px; z-index: 1;}
         #slider img[alt="main2"]{position: absolute; top: -55px; right: 158px;}
-        #logo{float: left; width: 141px; height: 124px; margin: 18px 50px;transition: 0.3s;}
+        #logo{float: left; width: 141px; height: 124px; margin: 18px 50px;transition: 0.3s; z-index: 3; position: absolute;}
         #logo:hover{transform: scale(1.1); }
         #lo{float: right; margin: 20px 50px; transition: 0.3s;}
         #lo:hover{transform: scale(1.1);}
